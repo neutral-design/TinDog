@@ -1,0 +1,48 @@
+.avatar-container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 550px;
+    display: block;
+}
+.logo {
+    width: 84px;
+    margin: 20px auto;
+    display: block;
+}
+.avatar {
+    position: relative;
+    width: 550px;
+    margin: 0 auto;
+    display: block;
+}
+
+.badge {
+    width: 150px;
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    transform: rotate(-20deg);
+}
+
+.dog-name {
+    position: absolute;
+    bottom: 55px;
+    left: 15px;
+    color: #F8F8F8;
+    
+}
+
+.dog-bio {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: #B7B7B7;
+}
+
+/* <button id="no-btn"><img class="no-button" src="images/icon-cross.png" /></button>
+<button id="yes-btn"><img class="yes-button" src="images/icon-heart.png" /></button> */
+
+#no-btn, #yes-btn {
+    background: none;
+    border: none;
+}
