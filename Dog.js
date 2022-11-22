@@ -1,12 +1,12 @@
 // Create the Dog class here
-import dogs from "./data"
+
 
 export default class Dog {
     constructor(data) {
         Object.assign(this, data)
         this.hasBeenLiked = true
         this.hasBeenSwiped = true
-        
+        console.log(data)
     }
     
     getDogHtml(){
